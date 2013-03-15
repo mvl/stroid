@@ -7,3 +7,20 @@
 //
 
 #include "ZZInputManager.h"
+
+ZZInputManager::ZZInputManager()
+{
+	
+}
+
+ZZInputManager::~ZZInputManager()
+{
+	
+}
+
+
+void
+ZZInputManager::registerForInput(void* callback, int value, int type)
+{
+	return;
+}
