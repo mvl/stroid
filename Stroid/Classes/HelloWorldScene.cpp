@@ -63,7 +63,7 @@ bool HelloWorld::init()
     this->addChild(pLabel, 1);
 
     // add "HelloWorld" splash screen"
-    CCSprite* pSprite = CCSprite::create("HelloWorld.png");
+    CCSprite* pSprite = CCSprite::create("ship.png");
 
     // position the sprite on the center of the screen
     pSprite->setPosition( ccp(size.width/2, size.height/2) );
@@ -82,3 +82,8 @@ void HelloWorld::menuCloseCallback(CCObject* pSender)
     exit(0);
 #endif
 }
+
+
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_MAC)
+	// do some mac stuff, such as key events?
+#endif

@@ -210,6 +210,8 @@
 		C331673D16F2F2B3000B0969 /* cocos2dx-ext_public.defines.txt in Resources */ = {isa = PBXBuildFile; fileRef = C331673C16F2F2B3000B0969 /* cocos2dx-ext_public.defines.txt */; };
 		C331674316F2F2B3000B0969 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C331674216F2F2B3000B0969 /* AppDelegate.cpp */; };
 		C331674616F2F2B3000B0969 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C331674516F2F2B3000B0969 /* HelloWorldScene.cpp */; };
+		C331674D16F2F384000B0969 /* ship.png in Resources */ = {isa = PBXBuildFile; fileRef = C331674C16F2F384000B0969 /* ship.png */; };
+		C331675016F2F564000B0969 /* ZZInputManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C331674E16F2F564000B0969 /* ZZInputManager.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -660,6 +662,9 @@
 		C331674216F2F2B3000B0969 /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		C331674416F2F2B3000B0969 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		C331674516F2F2B3000B0969 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
+		C331674C16F2F384000B0969 /* ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ship.png; path = Resources/ship.png; sourceTree = "<group>"; };
+		C331674E16F2F564000B0969 /* ZZInputManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ZZInputManager.cpp; path = Classes/ZZInputManager.cpp; sourceTree = "<group>"; };
+		C331674F16F2F564000B0969 /* ZZInputManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZZInputManager.h; path = Classes/ZZInputManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -729,6 +734,7 @@
 		C331649716F2F2B0000B0969 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C331674C16F2F384000B0969 /* ship.png */,
 				C331649816F2F2B0000B0969 /* CloseNormal.png */,
 				C331649A16F2F2B0000B0969 /* CloseSelected.png */,
 				C331649C16F2F2B0000B0969 /* Default.png */,
@@ -1595,6 +1601,8 @@
 				C331674216F2F2B3000B0969 /* AppDelegate.cpp */,
 				C331674416F2F2B3000B0969 /* HelloWorldScene.h */,
 				C331674516F2F2B3000B0969 /* HelloWorldScene.cpp */,
+				C331674E16F2F564000B0969 /* ZZInputManager.cpp */,
+				C331674F16F2F564000B0969 /* ZZInputManager.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -1663,6 +1671,7 @@
 				C331654616F2F2B0000B0969 /* ChangeLog in Resources */,
 				C331673B16F2F2B3000B0969 /* cocos2dx-ext.mkf in Resources */,
 				C331673D16F2F2B3000B0969 /* cocos2dx-ext_public.defines.txt in Resources */,
+				C331674D16F2F384000B0969 /* ship.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1853,6 +1862,7 @@
 				C331673716F2F2B3000B0969 /* CCPhysicsSprite.cpp in Sources */,
 				C331674316F2F2B3000B0969 /* AppDelegate.cpp in Sources */,
 				C331674616F2F2B3000B0969 /* HelloWorldScene.cpp in Sources */,
+				C331675016F2F564000B0969 /* ZZInputManager.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
